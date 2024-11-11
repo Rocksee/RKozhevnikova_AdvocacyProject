@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(92, 29, 104);
+    color: rgb(230, 230, 230);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(73, 7, 73);
+}
+
+.headerSection h1 {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar a {
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#more-button {
+    background-color: rgb(54, 180, 206);
+    color: white;
+}
+
+#theme-button {
+    background-color: rgb(45, 187, 195);
+    color: white;
+}
+
+#donate {
+    background-color: rgb(243, 150, 239);
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.cats, .mission {
+    flex-basis: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+ .petition {
+    flex-basis: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.petition-para{
+    width: 55%;
+    padding-right: 10px;
+}
+
+.signatures{
+    width: 45%;
+    padding-right: 10px;
+}
+
+input {
+    display: block
+  }
+  
+
+.error {
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    background: pink;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+button, .button {
+    background-color: rgb(45, 187, 195);
+    color: rgb(245, 245, 245);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background-color: rgb(255, 140, 50);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(73, 7, 73);
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer ul li {
+    margin: 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode {
+    background-color: rgb(10, 80, 108);
+    color: white;
+}
+
+.navbar.dark-mode {
+    background-color: rgb(20, 40, 60);
+}
+
+.headerSection.dark-mode {
+    background-color: rgb(20, 40, 60);
+    color: white;
+}
+
+.footer.dark-mode {
+    background-color: rgb(20, 40, 60);
+    color: white;
+}
+
+.petition-container {
+    display: flex;
+    flex-direction: row;
+
+}

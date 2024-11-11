@@ -1,0 +1,15 @@
+{
+  "files.autoSave": "afterDelay",
+  "search.exclude": {
+    "**/.vscode": true,
+    "**/.vscodeedu": true,
+    "**/*.code-workspace": true
+  },
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/.vscodeedu": true,
+    "**/*.code-workspace": true
+  },
+  "workbench.editor.defaultBinaryEditor": "",
+  "workbench.editor.enablePreviewFromCodeNavigation": true
+}

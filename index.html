@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lucky Paws Animal Rescue</title>
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <header class="headerSection">
+        <h1>Lucky Paws Animal Rescue</h1>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#new">What's New</a>
+            <a href="#mission">Mission</a>
+            <a href="#footer">Footer</a>
+            <button id="more-button">More</button>
+            <button id="donate">Donate</button>
+            <button id="theme-button">Toggle Dark Mode</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="new" class="cats">
+            <h2>What's new</h2>
+            <img src="https://i.imgur.com/jCVGCyG.jpeg" alt="Shelter Image">
+            <p>Please watch the video and learn about shelter overcrowding.</p>
+            <a href="https://northernvirginiamag.com/family/pets/2024/02/16/nova-animal-shelters-struggle-with-overcrowding-upper-respiratory-infections/"
+               target="_blank" class="button">Learn More</a>
+        </section>
+
+        <section id="mission" class="mission">
+            <h2>Mission</h2>
+            <img src="https://i.imgur.com/zbzoZcu.jpeg" alt="Mission Image">
+            <p>
+                At Lucky Paws Animal Rescue, our mission is to provide a safe haven for homeless cats and dogs, offering
+                compassionate care, fostering opportunities, and the chance for every animal to find a loving, forever
+                home. We are dedicated to promoting responsible pet ownership, supporting our community, and reducing
+                shelter overcrowding through rescue, rehabilitation, and adoption.
+            </p>
+        </section>
+
+        <section class="petition" id="petition">
+            <h2>Sign Our Petition 📢</h2>
+            <div class="petition-container">
+                <div class="petition-para">
+                    <!-- info goes here -->
+                     <p>Our community shelters are overwhelmed. Each day, more cats and dogs find themselves without a home, with too few resources to give them the care they need. By signing this petition, you're supporting a crucial expansion of our shelter and ensuring that every animal has a safe, comfortable space while they wait for their forever home.</p>
+                </div>
+                <div class="signatures">
+                    <p> 💌  Ann from Fairfax supports this.</p>
+                    <p> 💌  John from Washington, D.C. supports this.</p>
+                    <p> 💌 Sarah from Leesburg supports this.</p>
+                </div>
+            </div>
+            <form id="sign-petition" title="sign-petition">
+                <label>Name</label>
+                <input id="name">
+                <label>Hometown</label>
+                <input id="hometown">
+                <label>Email</label>
+                <input id="email">
+            </form>
+            <button id="sign-now-button">Sign Now</button>
+        </section>
+    </main>
+
+    <div class="video-container">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/BvotZbSxGTY?si=SUrAaUzdjhycE0Nk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <footer id="footer" class="footer">
+        <ul>
+            <li><a href="https://www.fairfaxcounty.gov/animalshelter/"> Link to Partnering Shelter</a></li>
+            <li><a href="https://www.lostdogcafe.com"> Link to Lost Dog Cafe</a></li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
